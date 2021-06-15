@@ -1,0 +1,59 @@
+.dashboard {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &-wrapper {
+    height: inherit;
+    background-color: $gray;
+    flex: 1;
+    display: flex;
+  }
+  &-main {
+    @extend .container;
+    padding-top: 1rem;
+  }
+  &-aside {
+    background-color: $primary;
+    display: flex;
+    .aside-wrapper {
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .bottom-nav {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+    }
+    .nav {
+      height: 100%;
+      max-height: 40%;
+      justify-content: space-around;
+      &-link {
+        font-size: 1.2rem;
+        color: $light;
+        i {
+          font-size: inherit;
+        }
+      }
+    }
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100px !important;
+}
+
+.task-list-modal .modal-content {
+  position: relative;
+  width: 800px !important;
+  margin-left: -100px;
+  margin-top: 50px;
+  margin-bottom: 50px !important;
+}
+
+.custom-input {
+  all: revert !important;
+}

@@ -1,0 +1,9 @@
+//----------GET TODOS-------------
+export const FETCH_TODOS_START = 'FETCH_TODOS_START';
+export const FETCH_TODOS_SUCCESS = 'FETCH_TODOS_SUCCESS';
+export const FETCH_TODOS_FAILURE = 'FETCH_TODOS_FAILURE';
+
+//----------ADD TODOS-------------
+export const ADD_TODOS_START = 'ADD_TODOS_START';
+export const ADD_TODOS_SUCCESS = 'ADD_TODOS_SUCCESS';
+export const ADD_TODOS_FAILURE = 'ADD_TODOS_FAILURE';
